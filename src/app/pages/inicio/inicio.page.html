@@ -1,17 +1,28 @@
 <ion-header no-border>
   <ion-toolbar>
+    
+    <ion-buttons slot="start">
+      <!-- <ion-button (click)="toogleMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button> -->
+      <ion-menu-button color="primary" menu="primerMenu" ></ion-menu-button>
+
+    </ion-buttons>
+
     <ion-title>Componentes</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
-  <ion-list>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam dolorem consequuntur sit autem deserunt quidem quo ex, corrupti ut. Nihil expedita quos et suscipit tempora dicta ducimus reiciendis non?</p>
+  
+  <!-- <ion-list>
     <ion-item *ngFor="let c of componentes" [routerLink]="c.redirectTo" detail>
       <ion-icon [name]="c.icon" slot="start"></ion-icon>
       <ion-label> {{c.name}} </ion-label>
     </ion-item>
-  </ion-list>
+  </ion-list> -->
 
 
 
