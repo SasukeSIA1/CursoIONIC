@@ -77,5 +77,25 @@
     "icon": "tablet-portrait",
     "name": "Popover",
     "redirectTo": "/popover"
+  },
+  {
+    "icon": "code-working",
+    "name": "Progress Bar",
+    "redirectTo": "/progress-bar"
+  },
+  {
+    "icon": "arrow-round-down",
+    "name": "Refresher",
+    "redirectTo": "/refresher"
+  },
+  {
+    "icon": "copy",
+    "name": "Segment",
+    "redirectTo": "/segment"
+  },
+  {
+    "icon": "cog",
+    "name": "Tabs",
+    "redirectTo": "/tabs/account"
   }
 ]
